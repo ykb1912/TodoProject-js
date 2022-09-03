@@ -7,12 +7,12 @@ const filter = document.querySelector("#filter-control");
 const clearButton = document.querySelector("#clear-todos")
 
 
-//const users = prompt("Kullanıcı Adını Giriniz.")
+// const users = prompt("Kullanıcı Adını Giriniz.")
 
 
-//localStorage.setItem("users",users);
+// localStorage.setItem("users",users);
 
-//document.querySelector("#users").innerHTML = localStorage.getItem("users")
+// document.querySelector("#users").innerHTML = localStorage.getItem("users")
 
 eventListeners();
 function eventListeners(){
@@ -34,7 +34,7 @@ function addTodo(e){
         })
 
         showAlert("success","Başarılı Bir Şekilde Eklendi")
-       window.location.reload(1);
+    //    window.location.reload(1);
      }
 
     
